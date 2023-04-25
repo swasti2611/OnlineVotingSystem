@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__340.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:30px;
+    font-family:Helvetica;
+}
+nav{
+    width: 100%;
+    background-color: orange;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+nav a{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+nav a:hover{
+	color:black;
+}
+.form-container{
+	background-color: #FEFCF3;
+    font-size: 27px;
+    width: 33%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 57%;
+    margin-top: 8%;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.form-container label{
+	
+    margin-left: 7%;
+        font-size: 25px;
+
+}
+.form-container input{
+    
+    width: 231px;
+    margin-top: 20px;
+    margin-left: 3%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #009EFF;
+}
+.form-container textarea{
+     height: 46px; 
+    width: 231px;
+    margin-top: 20px;
+    margin-left: 3%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #009EFF;
+}
+.form-container select{
+	width:300px;
+	height:40px;
+	margin-top:20px;
+	margin-left:30%;
+	font-size:25px;
+	text-align:center;
+	border-radius:20px;
+	background-color:#009EFF;	
+}
+.form-container button{
+		width: 231px;
+    margin-top: 20px;
+    margin-left: 3%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #009EFF;
+
+}
+.form-container select{
+	height:50px;
+	cursor:pointer;
+	width:300px;
+}
+.form-container a{
+	    display: block;
+    margin-left: 32px;
+    margin-top: 28px;
+}
+.form-container a:hover{
+	color:#009EFF;
+}
+.about{
+	    font-family: Helvetica;
+    font-size: 21px;
+    width: 505px;
+    height: 442px;
+    padding-left: 36px;
+    opacity: 0.8;
+    background-color: #FFF7E9;
+    margin-left: 52%;
+    margin-top: 68px;
+}
+.about p{
+	margin-top:1px;
+	padding-top:40px;
+	font-weight:bold;
+}
+.about img{
+	width:330px;
+	height:350px;
+	margin-right:10px;
+}
+.checkTable{
+	background-color:#FFF7E9;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+}
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+.checkTable td,th{
+	padding:10px 60px;
+}

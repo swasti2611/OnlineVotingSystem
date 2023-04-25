@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22-Apr-2023, 3:59:44 pm
+    Author     : swati
+*/
+
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__340.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:30px;
+    font-family:Helvetica;
+}
+nav{
+    background-color:orange;
+	font-size:30px;
+	color:white;
+	display:flex;
+	justify-content:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+nav a{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+nav a:hover{
+	color:black;
+}
+.form-container{
+	background-color:#FEFCF3;
+	font-size:30px;
+	width:35%;
+	display:flex;
+	justify-content:center;
+	margin-left:48%;
+	margin-top:8%;
+	border-radius:20px;
+	padding-bottom:30px;
+}
+.form-container label{
+	margin-left:40%;
+}
+.form-container input,textarea,select{
+	width:300px;
+	height:40px;
+	margin-top:20px;
+	margin-left:30%;
+	font-size:25px;
+	text-align:center;
+	border-radius:20px;
+	background-color:#009EFF;	
+}
+.form-container button{
+	width:210px;
+	height:45px;
+	margin-top:20px;
+	margin-left:30%;
+	font-size:25px;
+	text-align:center;
+	border-radius:20px;
+	background-color:#009EFF;	
+}
+.form-container button,select{
+	height:50px;
+	cursor:pointer;
+	width:300px;
+}
+.form-container a{
+	margin-left:40%;
+}
+.form-container a:hover{
+	color:#009EFF;
+}
+.about{
+	font-family:Helvetica;
+	font-size:30px;
+	width:100vx;
+	height:80vh;
+	padding-left:20px;
+	opacity:0.8;
+	background-color:#FFF7E9;
+}
+.about p{
+	margin-top:1px;
+	padding-top:40px;
+	font-weight:bold;
+}
+.about img{
+	width:330px;
+	height:350px;
+	margin-right:10px;
+}
+.checkTable{
+	background-color:#FFF7E9;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+}
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+.checkTable td,th{
+	padding:10px 60px;
+}
